@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# IgniteTimer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+IgniteTimer é um cronômetro estilo Pomodoro que permite controlar ciclos de foco e visualizar um histórico de atividades.
 
-Currently, two official plugins are available:
+## Pré-requisitos
+- [Node.js](https://nodejs.org/)
+- npm ou yarn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {-
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Instalação
+```bash
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Execução
+```bash
+npm run dev   # modo desenvolvimento
+npm run build # build de produção
+npm run lint  # análise estática
+```
+
+## Funcionalidades
+- Criação e interrupção de ciclos de trabalho
+- Contagem regressiva em tempo real
+- Histórico dos ciclos realizados
+
+## Tecnologias
+- React
+- TypeScript
+- Vite
+- React Router
+- styled-components
+- react-hook-form
+- zod
+- date-fns
+
+## Estrutura do Projeto
+- Página **Home** para iniciar novos ciclos
+- Página **History** para visualizar o histórico
+- Contexto de **Cycles** para gerenciamento de estado
+- Componentes estilizados com styled-components
+
+## Licença
+Distribuído sob a licença MIT.
+
+## Créditos
+Desenvolvido durante o Ignite da Rocketseat.
