@@ -1,46 +1,74 @@
-# IgniteTimer
+# ⏱️ IgniteTimer
 
-IgniteTimer é um cronômetro estilo Pomodoro que permite controlar ciclos de foco e visualizar um histórico de atividades.
+A Pomodoro-style timer to manage focus cycles and keep a history of completed sessions.
 
-## Pré-requisitos
-- [Node.js](https://nodejs.org/)
-- npm ou yarn
+---
 
-## Instalação
+## 📑 Table of Contents
+- [About](#-about)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Features](#-features)
+- [Contact](#-contact)
+
+---
+
+## 💡 About
+**IgniteTimer** is a React + TypeScript application that implements a Pomodoro workflow: start/interrupt focus cycles and view a detailed history.
+
+---
+
+## 🛠 Tech Stack
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [styled-components](https://styled-components.com/)
+- [React Router](https://reactrouter.com/)
+- [react-hook-form](https://react-hook-form.com/) + [zod](https://zod.dev/)
+- [date-fns](https://date-fns.org/)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/leogeison/IgniteTimer.git
+```
+
+Navigate to the project folder:
+```bash
+cd IgniteTimer
+```
+
+Install dependencies:
 ```bash
 npm install
 ```
 
-## Execução
+Run the development server:
 ```bash
-npm run dev   # modo desenvolvimento
-npm run build # build de produção
-npm run lint  # análise estática
+npm run dev
 ```
 
-## Funcionalidades
-- Criação e interrupção de ciclos de trabalho
-- Contagem regressiva em tempo real
-- Histórico dos ciclos realizados
+## ▶️ Usage
+After running the project, open your browser at:
+```
+http://localhost:5173
+```
 
-## Tecnologias
-- React
-- TypeScript
-- Vite
-- React Router
-- styled-components
-- react-hook-form
-- zod
-- date-fns
+## ✨ Features
+- ⏱️ Start and interrupt focus cycles  
+- 📊 Real-time countdown  
+- 📜 History of completed cycles  
+- ✅ Form validation with zod + react-hook-form  
+- 💾 LocalStorage persistence  
+- 📱 Responsive layout  
 
-## Estrutura do Projeto
-- Página **Home** para iniciar novos ciclos
-- Página **History** para visualizar o histórico
-- Contexto de **Cycles** para gerenciamento de estado
-- Componentes estilizados com styled-components
+---
 
-## Licença
-Distribuído sob a licença MIT.
-
-## Créditos
-Desenvolvido durante o Ignite da Rocketseat.
+## 📬 Contact
+👤 **Léo Geison**  
+🌐 [GitHub](https://github.com/leogeison)  
+🔗 [LinkedIn](https://www.linkedin.com/in/leo-geison/)  
